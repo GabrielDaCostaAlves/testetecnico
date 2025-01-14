@@ -21,7 +21,7 @@ public class FaturamentoDiarioDeUmaDistribuidora {
     public static void main(String[] args) {
         try {
 
-            String path = "src/desafios/faturamentodiario/faturamento.json";
+            String path = "src/desafios/faturamentodiario/dados.json";
             String content = new String(Files.readAllBytes(Paths.get(path)));
 
             JSONArray faturamentoDiario = new JSONArray(content);
